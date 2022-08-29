@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <canvas id="canvas"></canvas>   
+
+    <div id="wrap">
+        
+        <fieldset  class="controller_wrap">
+            <legend>Meteor Controller</legend>
+
+            <label for="spawnSpeed">
+                Spawn Speed
+                <input id="spawnSpeed" type="number" min="100">
+            </label>
+
+            <label for="meteorSpeed">
+                Meteor Speed
+                <input id="meteorSpeed" type="number" min="3">
+            </label>
+
+            <label for="meteorSize">
+                Meteor Size
+                <input id="meteorSize" type="number" min="3">
+            </label>
+
+        </fieldset>
+        
+        <p id="data1">Year : 2012</p>        
+        <p>Meteors Impact On The Sun</p>
+        <ul class="list" id="data3">
+        </ul>
+        <p>Planet Data</p>
+        <ul class="list" id="planetData">
+        </ul>
+    </div>
+
+  
+
+
+    <script src="platform.js"></script>
+    <script src="global.js"></script>
+    <script src="impact.js"></script>
+    <script src="sun.js"></script>
+    <script src="planets.js"></script>
+    <script src="meteoros.js"></script>    
+    <script src="animate.js"></script>
+
+</body>
+</html>
